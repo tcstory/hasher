@@ -61,6 +61,7 @@ var Hasher = (function () {
     /**
      *
      * 为hashchange事件添加事件处理程序
+     * @private
      */
     Hasher.prototype._autoFresh = function () {
         var _this = this;

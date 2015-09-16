@@ -63,6 +63,7 @@ class Hasher {
     /**
      *
      * 为hashchange事件添加事件处理程序
+     * @private
      */
     private _autoFresh() {
         window.onhashchange = e=> {
